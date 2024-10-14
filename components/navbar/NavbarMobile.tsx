@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import logo from "@/public/admiral-logo.png";
 import { IoMenu } from "react-icons/io5";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 function NavbarMobile() {
   const [isOpen, setIsOpen] = useState(false);
