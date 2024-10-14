@@ -2,26 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: "Gloock";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/Gloock-Regular.woff2") format("woff2");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: "Archivo Narrow Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/ArchivoNarrow-Regular.ttf") format("truetype");
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@font-face {
+  font-family: "Archivo Narrow Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/ArchivoNarrow-Bold.ttf") format("truetype");
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+@font-face {
+  font-family: "Archivo Narrow Italic";
+  font-style: italic;
+  font-weight: 400;
+  src: url("./fonts/ArchivoNarrow-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Archivo Narrow Bold Italic";
+  font-style: italic;
+  font-weight: 700;
+  src: url("./fonts/ArchivoNarrow-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Archivo Narrow SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./fonts/ArchivoNarrow-SemiBold.ttf") format("truetype");
 }

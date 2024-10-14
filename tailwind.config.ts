@@ -7,10 +7,19 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      gloock: ["Gloock"],
+      archivoRegular: ["Archivo Narrow Regular"],
+      archivoBold: ["Archivo Narrow Bold"],
+      archivoSemiBold: ["Archivo Narrow SemiBold"],
+      archivoItalic: ["Archivo Narrow Italic"],
+    },
     extend: {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        greenDark: "#202814",
+        greenLight: "#AFCC81",
       },
     },
   },
