@@ -16,6 +16,7 @@ function ContactSection() {
     subject: "",
     text: "",
   });
+  const [status, setStatus] = useState<string | null>(null);
 
   const handleChange = (
     e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -40,14 +41,17 @@ function ContactSection() {
         }),
       });
 
-      setFormData({
-        name: "",
-        email: "",
-        subject: "",
-        text: "",
-      });
+      if (response.ok) {
+        setStatus("Mensagem enviada com sucesso!");
+        setFormData({ name: "", email: "", subject: "", text: "" });
+        console.log(status);
+      } else {
+        setStatus("Falha ao enviar a mensagem.");
+        console.log(status);
+      }
     } catch (error) {
-      console.log(error);
+      setStatus("Erro ao enviar. Tente novamente mais tarde.");
+      console.log(`${status} ${error}`);
     }
   };
 
