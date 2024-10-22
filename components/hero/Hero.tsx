@@ -26,33 +26,31 @@ function Hero() {
               O norte da admiral
             </h2>
             <p className="md:hidden  font-archivoRegular text-white text-sm pb-4">
-              Torem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-              turpis molestie, dictum est a, mattis tellus.{" "}
+              Em um mundo cada vez mais superficial é importante poder contar e
+              confiar com quem preza por qualidade de serviço, zelo
+              profissional, confiabilidade e sigilo. Para nós, excelência é
+              trabalhar pensando sempre nos{" "}
               <span className="font-archivoBold text-greenLight">
-                Sed dignissim, metus nec fringilla
-              </span>{" "}
-              accumsan, risus sem sollicitudin lacus, ut interdum tellus elit
-              sed risus. Maecenas eget condimentum velit, sit amet feugiat
-              lectus.
+                melhores resultados para o cliente
+              </span>
+              .
             </p>
             <p className="md:hidden font-archivoRegular text-white text-sm pb-16">
-              Class aptent taciti sociosqu ad litora torquent per conubia
-              nostra, per inceptos himenaeos.{" "}
-              <span className="font-archivoBold text-greenLight">
-                Praesent auctor purus luctus enim egestas
-              </span>
-              , risus sem sollicitudin lacus, ut interdum tellus elit sed risus.
-              Maecenas eget condimentum velit, sit amet feugiat lectus.
+              Excelência é nunca dar o serviço como pronto antes de confirmar de
+              que tudo o que precisava ser feito foi feito da melhor forma
+              possível para os melhores resultados.
             </p>
-            <p className="hidden md:inline font-archivoRegular text-white pb-20 text-lg">
-              Torem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-              turpis molestie, dictum est a, mattis tellus.{" "}
+            <p className="hidden md:inline font-archivoRegular text-white pb-20 text-lg text-justify">
+              Em um mundo cada vez mais superficial é importante poder contar e
+              confiar com quem preza por qualidade de serviço, zelo
+              profissional, confiabilidade e sigilo. Para nós, excelência é
+              trabalhar pensando sempre nos{" "}
               <span className="font-archivoBold text-greenLight">
-                Sed dignissim, metus nec fringilla
-              </span>{" "}
-              accumsan, risus sem sollicitudin lacus, ut interdum tellus elit
-              sed risus. Maecenas eget condimentum velit, sit amet feugiat
-              lectus.
+                melhores resultados para o cliente
+              </span>
+              . Excelência é nunca dar o serviço como pronto antes de confirmar
+              de que tudo o que precisava ser feito foi feito da melhor forma
+              possível para os melhores resultados.
             </p>
           </div>
         </SectionCenter>

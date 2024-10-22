@@ -10,7 +10,12 @@ function NavbarRegular() {
       <NavbarLink text="Procedimentos" href="procedures" />
       <div className="relative w-[125px] h-[185px]">
         <Link href="/">
-          <Image src={logo} alt="Admiral Logo" fill objectFit="cover" />
+          <Image
+            src={logo}
+            alt="Admiral Logo"
+            layout="fill"
+            objectFit="cover"
+          />
         </Link>
       </div>
       <NavbarLink text="Valores" href="values" />

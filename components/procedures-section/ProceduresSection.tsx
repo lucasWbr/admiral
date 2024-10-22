@@ -22,22 +22,17 @@ function ProceduresSection() {
             <h2 className="font-gloock text-greenDark text-[2rem] sm:text-[2.5rem] pt-8 pb-4 md:pb-8 md:text-5xl">
               Procedimentos
             </h2>
-            <p className="font-archivoRegular text-greenDark  text-sm pb-12 w-[55vw] md:text-base">
-              Class aptent taciti sociosqu ad litora torquent per conubia
-              nostra, per inceptos himenaeos. Praesent auctor purus luctus enim
-              egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex.
-              Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel
-              bibendum lorem.{" "}
+            <p className="font-archivoRegular text-greenDark  text-sm pb-12 w-[55vw] md:text-base md:text-justify">
+              Prestamos serviços de consultoria para blindagem patrimonial
+              levando em conta as características e necessidades de cada cliente
+              ou grupo familiar. Cada profissional da nossa equipe tem{" "}
               <span className="font-archivoBold">
-                Morbi convallis convallis diam
-              </span>{" "}
-              sit amet lacinia. Aliquam in elementum tellus. Class aptent taciti
-              sociosqu ad litora torquent per conubia nostra, per inceptos
-              himenaeos.{" "}
-              <span className="md:font-archivoBold">Praesent auctor</span> purus
-              luctus enim egestas, risus sem sollicitudin lacus, ut interdum
-              tellus elit sed risus. Maecenas eget condimentum velit, sit amet
-              feugiat lectus.
+                grande experiência e conhecimento de sua área
+              </span>
+              , começando com a escolha do local mais indicado para sua
+              offshore, seguindo com serviços jurídicos, contábeis e de controle
+              que dão segurança e agilidade para que você possa administrar seu
+              patrimônio do modo mais conveniente.
             </p>
           </div>
         </SectionCenter>

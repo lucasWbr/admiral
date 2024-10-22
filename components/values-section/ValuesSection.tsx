@@ -11,19 +11,23 @@ function ValuesSection() {
           <h1 className="text-greenLight font-gloock text-[2.5rem] pt-8 pb-4 md:pb-8 md:text-5xl">
             Valores
           </h1>
+          <p className="font-archivoRegular text-white  text-sm w-[55vw] md:text-lg md:max-w-[20vw] pb-8">
+            Nosso trabalho é um investimento que poupará perdas irreparáveis em
+            impostos, taxas e outros custos. Nossos honorários levam em conta a
+            estimativa do volume e das características do trabalho necessário
+            para os melhores resultados. Justo, não?
+          </p>
           <p className="font-archivoRegular text-white  text-sm w-[55vw] md:text-lg md:max-w-[20vw]">
-            Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-            per inceptos himenaeos.{" "}
+            Dentro de um cronograma debatido em conjunto, colocamos você e seu
+            patrimônio{" "}
             <span className="text-greenLight font-archivoBold">
-              Praesent auctor purus luctus
-            </span>{" "}
-            enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Sed
-            dignissim, metus nec fringilla accumsan, risus sem sollicitudin
-            lacus, ut interdum{" "}
-            <span className="text-greenLight font-archivoBold">
-              tellus elit sed risus
+              longe dos riscos de uma economia instável e de um país cuja carga
+              de impostos aumenta cada vez mais
             </span>
-            . Maecenas eget condimentum velit
+            . Obedecendo rigorosamente as leis do país onde está seu patrimônio
+            e as leis do país no qual você quer proteger este patrimônio.
+            Simples assim. Acredite, o preço desta tranquilidade é um percentual
+            ínfimo do que você vai poupar.
           </p>
         </div>
         <div className="w-full h-[235px] relative border-[2px] border-greenLight rounded-[2rem] md:h-[70vh] md:max-h-[680px] md:max-w-[533px]">

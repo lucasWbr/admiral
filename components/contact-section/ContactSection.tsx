@@ -65,12 +65,12 @@ function ContactSection() {
           <h1 className="font-gloock text-greenDark text-[2.5rem] pt-8 pb-4 md:pb-8 md:text-5xl">
             Fale Conosco
           </h1>
-          <p className="font-archivoRegular text-greenDark  text-sm pb-12 w-[55vw] md:text-base">
-            Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-            per inceptos himenaeos. Praesent auctor purus luctus enim egestas,
-            ac scelerisque ante pulvinar. Donec ut rhoncus ex. Sed dignissim,
-            metus nec fringilla accumsan, risus sem sollicitudin lacus, ut
-            interdum tellus elit sed risus. Maecenas eget condimentum velit
+          <p className="font-archivoRegular text-greenDark  text-sm pb-12 w-[55vw] md:text-base md:text-justify">
+            Entre em contato para agendar uma reunião de trabalho inicial para
+            conhecermos seus desejos e necessidades e a partir daí
+            apresentaremos nossas sugestões e poderemos elaborar conjuntamente
+            um plano de trabalho ágil e seguro para proteção e/ou sucessão
+            patrimonial eficiente.
           </p>
           <form onSubmit={handleSubmit} className="flex flex-col">
             <div className="bg-greenLight flex flex-col border-[2px] border-greenDark rounded-xl">
@@ -109,9 +109,9 @@ function ContactSection() {
                   id="textArea"
                   value={formData.text}
                   onChange={handleChange}
-                  className="bg-transparent w-full pl-2 font-archivoRegular text-white placeholder-white min-h-[20vh] focus:outline-none resize-none"
+                  className="bg-transparent w-full pl-2 font-archivoRegular text-greenDark placeholder-greenDark min-h-[20vh] focus:outline-none resize-none"
                   required
-                  placeholder="digite sua mensagem"
+                  placeholder="Digite sua mensagem"
                 ></textarea>
               </div>
             </div>
